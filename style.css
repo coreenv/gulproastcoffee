@@ -1,33 +1,31 @@
 /* see the brand guide for colors, fonts, and images in CodePen: 
 https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
-
-h1{
-font-family: 'Poppins', sans-serif;}
-p{
-  font-family: 'Lato', sans-serif;
+h1 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
 }
 
-.header{
-  background-color:#082B59;
+p {
+  font-family: "Lato", sans-serif;
 }
 
-
-
-.logo{
-  width:120px;
-  display:block;
-  margin:0 auto;
+.header {
+  background-color: #082B59;
 }
 
+.logo {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
 
-.navigation{
+.navigation {
   display: flex;
   flex-wrap: nowrap;
-  justify-content:center;
+  justify-content: center;
 }
 
-.navigation > div{
-  background-color:;
+.navigation > div {
   width: 120px;
   margin: 10px 0;
   text-align: center;
@@ -35,60 +33,58 @@ p{
   font-size: 14px;
 }
 
-a{
-  color:#F2F2F2;
-  font-family: 'Lato', sans-serif;
-  text-decoration:none;
-  }
-
-.fa-solid{
-  color:white;
-  margin-right:3px;
+a {
+  color: #F2F2F2;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
 }
 
-.divider{
-  height:5px;
-  width:100%;
-  background-color:#D98555; 
+.fa-solid {
+  color: white;
+  margin-right: 3px;
 }
 
-.content{
+.divider {
+  height: 5px;
+  width: 100%;
+  background-color: #D98555;
+}
+
+.content {
   width: 650px;
   height: 390px;
   padding: 20px;
   margin: 50px 200px;
-  
 }
 
-.content a{
-  color:#082B59;
+.content a {
+  color: #082B59;
 }
 
-.card{
-  background-color:#59331D;
-  width:200px;
+.card {
+  background-color: #59331D;
+  width: 200px;
   border-radius: 20px;
-  Margin-left:680px;
-  position:relative;
-  bottom:370px;
- 
+  Margin-left: 680px;
+  position: relative;
+  bottom: 370px;
 }
 
-.cardimg{
-  width:100%;
+.cardimg {
+  width: 100%;
   border-radius: 25px 25px 0 0px;
 }
 
-.card p{
-  color:#F2F2F2;
-  margin:15px;
-  text-align:center;
+.card p {
+  color: #F2F2F2;
+  margin: 15px;
+  text-align: center;
 }
 
 .button {
   background-color: #59331D;
-  font-family: 'Lato', sans-serif;
-  border-radius:10px;
+  font-family: "Lato", sans-serif;
+  border-radius: 10px;
   border: none;
   color: #F2F2F2;
   padding: 15px 32px;
@@ -98,23 +94,34 @@ a{
   font-size: 16px;
 }
 
-.button a{
-  color:#F2F2F2;
+.button a {
+  color: #F2F2F2;
 }
 
-.footer{
-  background-color:#082B59;
-  font-family: 'Lato', sans-serif;
-  text-align:center;
+.footer {
+  background-color: #082B59;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
-.footer p{
-  font-size:12px;
-  color:#F2F2F2;
-  margin:15px;
-  text-align:center;
+
+.footer p {
+  font-size: 12px;
+  color: #F2F2F2;
+  margin: 15px;
+  text-align: center;
 }
-.fa-brands{
-  color:white;
-  margin-right:20px;
-  text-align:center;
+
+.fa-brands {
+  color: white;
+  margin-right: 20px;
+  text-align: center;
 }
+
+h2 {
+  font-size: 36px;
+}
+
+h1 {
+  color: red;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
